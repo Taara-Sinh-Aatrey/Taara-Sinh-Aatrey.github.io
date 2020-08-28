@@ -1,0 +1,237 @@
+html {
+    background-color: rgb(244, 201, 208);
+/*    color: rgb(85, 85, 85,0.99);*/
+/*    color: #344955;*/
+    color: green;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: 'Lato' , 'Arial' , sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2{
+    letter-spacing: 0.5px;
+    word-spacing: 4px;
+}
+
+
+.main-heading1 {
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 750px;
+    height: 424px;
+    float: left;
+    color: red;
+}
+
+.main-text1 {
+    display: inline-block;
+    width: 750px;
+    height: 150px;
+    margin-top: 50px;
+    font-family: 'Lato' , 'Arial' , sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.main-text2 {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+}
+.c3 {
+    position: absolute;
+    width: 615px;
+    height: 0px;
+    border: 3px solid #f9aa33;
+}
+
+.my_img {
+    margin-top: 74px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 50px;
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 50px;
+    border-radius: 200px;
+}
+
+.profiles {
+    display: inline-block;
+    float: left;
+    margin-right: 68px;
+}
+
+.profile_images {
+    height: 50px;
+    width: 50px;
+}
+
+.part1, .part2{
+    display: inline-block;
+    height: 600px;
+    width: 550px;
+    float: left;
+}
+
+.part1{
+    margin-left: 100px;
+}
+
+.part2{
+    margin-left: 200px;
+}
+
+.Topic1, .Detail1, .Detail2, .Topic2, .Detail3, .Topic3 {
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.Topic1, .Topic2, .Topic3{
+/*    margin-left: 100px;*/
+/*    margin-right: 587px;*/
+    margin-bottom: 0px;
+    width: 540px;
+    font-size: 20px;
+    color: black;
+}
+
+.Topic1{
+    margin-top: 100px;
+/*
+    display: inline-block;
+    background-color: rgba(245, 7, 7, 0.75);
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 50px;
+    width: 180px;
+*/
+}
+
+.Topic2{
+    margin-top: 100px;
+/*
+    background-color: #344955;
+    background-color: rgba(245, 7, 7, 0.75);
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-bottom: 65px;
+    width: 246px;
+    height: 100px;
+*/
+}
+
+.Topic3{
+    margin-top: 0px;
+/*
+    background-color: rgba(245, 7, 7, 0.75);
+    padding-bottom: 65px;
+    padding-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 125px;
+    height: 50px;
+    width: 260px;
+*/
+}
+
+.Detail1{
+    width: 540px;
+    height: 360px;
+    padding-left: 10px;
+/*    margin-top: 20px;*/
+/*    background-color: rgba(255, 165, 0, 0.75);*/
+    background-color: rgba(181, 247, 76, 0.75);
+}
+
+.Detail2{
+    padding: 55px 0px;
+    width: 540px;
+    height: 240px;
+    padding-left: 10px;
+/*    margin-top: 40px;*/
+    background-color: rgba(181, 247, 76, 0.75);
+}
+
+.Detail3{
+    width: 540px;
+    height: 340px;
+    padding-left: 10px;
+/*    margin-top: 40px;*/
+/*    background-color: rgba(255, 165, 0, 0.75);*/
+    background-color: rgba(181, 247, 76, 0.75);
+}
+.list_element {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.obj {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.NTSE-Result {
+    display: inline-block;
+    height: 55;
+    padding: 230px 0px;
+    width: 400px;
+    margin-left: 100px;
+/*    margin-bottom: 100px;*/
+    font-size: 40px;
+    float: left;
+}
+
+.contact-me {
+/*    display: inline-block;*/
+/*    height: 50px;*/
+    margin-left: 100px;
+    font-size: 20px;
+/*
+    margin-right: 1220px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100px;
+    clear: left;
+*/
+}
+
+.small_images {
+    height: 25px;
+    width: 25px;
+}
+
+.end{
+    display: inline-block;
+    height: 200px;
+    width: 1517px;
+    background-color: #567381;
+    color: white;
+}
+
+/*
+.call{
+    display: inline-block;
+    margin-left: 100px;
+    width: 1100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+*/
