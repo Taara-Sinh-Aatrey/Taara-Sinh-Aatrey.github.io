@@ -71,12 +71,13 @@ h1, h2{
 .profiles {
     display: inline-block;
     float: left;
-    margin-right: 68px;
+    margin-left: 50px;
 }
 
 .profile_images {
-    height: 50px;
-    width: 50px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
 }
 
 .part1, .part2{
