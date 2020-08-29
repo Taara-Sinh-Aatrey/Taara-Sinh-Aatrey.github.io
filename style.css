@@ -127,7 +127,7 @@ h1, h2{
     width: 540px;
     height: 360px;
     padding-left: 10px;
-    height: 50vh;
+    /*height: 50vh;*/
 }
 
 .Detail1{
@@ -148,7 +148,7 @@ h1, h2{
     width: 540px;
     height: 240px;
     padding-left: 10px;
-    height: 35vh;
+    /*height: 35vh;*/
 }
 
 .list_element {
