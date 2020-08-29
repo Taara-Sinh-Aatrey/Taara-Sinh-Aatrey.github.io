@@ -1,8 +1,11 @@
 html {
-    background-color: rgb(244, 201, 208);
-/*    color: rgb(85, 85, 85,0.99);*/
-/*    color: #344955;*/
-    color: green;
+/*    background-color: rgb(244, 201, 208);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01) , rgba(0, 0, 0, 0.01)) , url(bg_image1.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
     font-family: Roboto;
     font-style: normal;
     font-family: 'Lato' , 'Arial' , sans-serif;
@@ -23,7 +26,6 @@ h1, h2{
     width: 750px;
     height: 424px;
     float: left;
-    color: red;
 }
 
 .main-text1 {
@@ -92,89 +94,62 @@ h1, h2{
     margin-left: 200px;
 }
 
-.Topic1, .Detail1, .Detail2, .Topic2, .Detail3, .Topic3 {
+.Topic1, .Detail1, .Detail2, .Topic2, .Topic3, .Detail3, .Detail4 {
     display: inline-block;
     border-radius: 30px;
 }
 
 .Topic1, .Topic2, .Topic3{
-/*    margin-left: 100px;*/
-/*    margin-right: 587px;*/
     margin-bottom: 0px;
     width: 540px;
     font-size: 20px;
-    color: black;
 }
 
 .Topic1{
     margin-top: 100px;
-/*
-    display: inline-block;
-    background-color: rgba(245, 7, 7, 0.75);
-    padding-bottom: 65px;
-    padding-top: 65px;
-    padding-left: 60px;
-    padding-right: 60px;
-    height: 50px;
-    width: 180px;
-*/
 }
 
 .Topic2{
     margin-top: 100px;
-/*
-    background-color: #344955;
-    background-color: rgba(245, 7, 7, 0.75);
-    padding-bottom: 40px;
-    padding-top: 40px;
-    padding-left: 27px;
-    padding-right: 27px;
-    margin-bottom: 65px;
-    width: 246px;
-    height: 100px;
-*/
 }
 
 .Topic3{
     margin-top: 0px;
-/*
-    background-color: rgba(245, 7, 7, 0.75);
-    padding-bottom: 65px;
-    padding-top: 65px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 125px;
-    height: 50px;
-    width: 260px;
-*/
 }
 
-.Detail1{
+.Detail1, .Detail2, .Detail3, .Detail4{
+    background-position: center;
+    background-size: cover;
+}
+
+.Detail1, .Detail3, .Detail4{
     width: 540px;
     height: 360px;
     padding-left: 10px;
-/*    margin-top: 20px;*/
-/*    background-color: rgba(255, 165, 0, 0.75);*/
-    background-color: rgba(181, 247, 76, 0.75);
+    height: 50vh;
+}
+
+.Detail1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01) , rgba(0, 0, 0, 0.01)) , url(bg_image2.jpg);
+}
+
+.Detail3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20) , rgba(0, 0, 0, 0.20)) , url(bg_image7.jpg);
+}
+
+.Detail4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.01) , rgba(0, 0, 0, 0.01)) , url(bg_image6.jpg);
 }
 
 .Detail2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20) , rgba(0, 0, 0, 0.20)) , url(bg_image4.jpg);
     padding: 55px 0px;
     width: 540px;
     height: 240px;
     padding-left: 10px;
-/*    margin-top: 40px;*/
-    background-color: rgba(181, 247, 76, 0.75);
+    height: 35vh;
 }
 
-.Detail3{
-    width: 540px;
-    height: 340px;
-    padding-left: 10px;
-/*    margin-top: 40px;*/
-/*    background-color: rgba(255, 165, 0, 0.75);*/
-    background-color: rgba(181, 247, 76, 0.75);
-}
 .list_element {
     font-size: 25px;
     margin-bottom: 20px;
@@ -194,23 +169,13 @@ h1, h2{
     padding: 230px 0px;
     width: 400px;
     margin-left: 100px;
-/*    margin-bottom: 100px;*/
     font-size: 40px;
     float: left;
 }
 
 .contact-me {
-/*    display: inline-block;*/
-/*    height: 50px;*/
     margin-left: 100px;
     font-size: 20px;
-/*
-    margin-right: 1220px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    width: 100px;
-    clear: left;
-*/
 }
 
 .small_images {
@@ -222,16 +187,4 @@ h1, h2{
     display: inline-block;
     height: 200px;
     width: 1517px;
-    background-color: #567381;
-    color: white;
 }
-
-/*
-.call{
-    display: inline-block;
-    margin-left: 100px;
-    width: 1100px;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-*/
